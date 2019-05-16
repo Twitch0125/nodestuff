@@ -1,0 +1,17 @@
+// 4 type of streams:
+// Writable – use it to write out data (for example, fs.createWriteStream()).
+// Readable – use it to read data (for example, fs.createReadStream()).
+// Duplex – streams that are both Readable and Writable (for example, net.Socket).
+// Transform – use it to modify or transform the data as it is written or read
+
+// 4 type of streams:
+// Writable – use it to write out data (for example, fs.createWriteStream()).
+// Readable – use it to read data (for example, fs.createReadStream()).
+// Duplex – streams that are both Readable and Writable (for example, net.Socket).
+// Transform – use it to modify or transform the data as it is written or read
+
+// 4 type of streams:
+// Writable – use it to write out data (for example, fs.createWriteStream()).
+// Readable – use it to read data (for example, fs.createReadStream()).
+// Duplex – streams that are both Readable and Writable (for example, net.Socket).
+// Transform – use it to modify or transform the data as it is written or read
