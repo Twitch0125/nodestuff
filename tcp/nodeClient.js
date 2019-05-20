@@ -7,9 +7,6 @@ client.setEncoding("utf8");
 client.on("data", data => {
   console.log(data);
 });
-process.stdin.on("readable", () => {
-  let chunk;
-  while ((chunk = process.stdin.read()) !== null) {
-    process.stdout.write(`data: ${chunk}`);
-  }
+process.stdin.on("data", data => {
+  client.write(data);
 });
